@@ -1,6 +1,6 @@
-# Custom Datepicker
+# Age calculator/ Custom/Birthday Datepicker
 
-A custom-built datepicker showcasing date manipulation and calendar generation.
+A custom-built datepicker showcasing date manipulation and calendar generation including an age calculation feature
 
 ### Features Covered
 
@@ -9,13 +9,12 @@ A custom-built datepicker showcasing date manipulation and calendar generation.
 - [x] Prev/Next month navigation
 - [x] Change year or month with inputs
 - [x] Apply/cancel date selection
+ - [x] Calculate age based on  birthday date selection
 
 ### Screenshot
 
-![Custom Datepicker](https://raw.githubusercontent.com/refinedguides/custom-datepicker/main/screenshot.png)
+![agecalc](https://github.com/user-attachments/assets/aeb690f3-1683-4515-a133-ece423a05094)
 
-### Support Me
 
-If you'd like to support me, consider buying me a coffee. Thanks!
+### Thanks :)
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/refinedguides)
