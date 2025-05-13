@@ -8,22 +8,71 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./Agecalculator.css">
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        
     </head>
     <body>
         <main>
             <h1> Age Calculator</h1>
-            <div class="body">
+            <div class="internal">
                 <p class="enter"> Enter your birth date: </p>
-                <div class="form">
-                    <form action="">
-                        <i class="fa-solid fa-calendar"></i>
-                        <input type="int" class="input-field">
-                    </form>
+                <div class="container">
+                    <div class="form">
+                        <span class="icon"><i class="fa fa-calendar"></i></span>
+                        <input type="text" id="input-field" placeholder="Select date">
+                    </div>
+                    <div class="picker" hidden>
+                        <div class="picker-header">
+                            <button class="prev">Prev</button>
+
+                            <div>
+                                <select class="month-input">
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                </select>
+                                <input type="number" class="year-input"  />
+                            </div>
+
+                            <button class="next">Next</button>
+                        </div>
+                        <!-- /.datepicker-header -->
+
+                        <div class="days">
+                            <span>Sun</span>
+                            <span>Mon</span>
+                            <span>Tue</span>
+                            <span>Wed</span>
+                            <span>Thur</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+
+                        </div>
+                        <div class="dates">
+                            
+
+                        </div>
+                        <div class="picker-footer">
+                                <button class="cancel">Cancel</button>
+                                <button class="apply">Apply</button>
+                        </div>
+                    </div>
                 </div>
-                <button class="button"> Calculate Now!</button>
-                <p class="verdict"> you are   years old!</p>
+                <div class="bottom">
+                    <button class="calcbutton"> Calculate Now!</button>
+                    <p class="verdict"> you are ___ years old!</p>
+                
+                </div>
             </div>
         </main>
-
+    <script src="Agecalculator.js"></script>
     </body>
 </html>
